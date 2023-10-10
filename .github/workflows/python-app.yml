@@ -36,4 +36,5 @@ jobs:
     # run main python script
     - name: run test python script
       run: |
+        pip install openpyxl
         python Validatiematrix2markdown.py
